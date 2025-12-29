@@ -1,0 +1,11 @@
+# dependencies
+node_modules/
+
+# turborepo
+.turbo/
+
+# environment
+.env
+
+# editor
+.vscode/

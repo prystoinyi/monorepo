@@ -1,0 +1,33 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "dist/src/main.js",
+  "scripts": {
+    "dev": "nest start --env-file .env.local --watch",
+    "build": "nest build",
+    "start": "node dist/src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.26.1",
+  "dependencies": {
+    "@repo/lib": "workspace:*",
+    "@nestjs/common": "11.1.9",
+    "@nestjs/config": "4.0.2",
+    "@nestjs/core": "11.1.9",
+    "@nestjs/platform-express": "11.1.9",
+    "joi": "18.0.2",
+    "pg": "8.16.3",
+    "reflect-metadata": "~0.2.2"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "11.0.14",
+    "@nestjs/schematics": "11.0.9",
+    "@types/node": "^20.19.27",
+    "@types/pg": "8.16.0",
+    "typescript": "^5.9.3"
+  }
+}
